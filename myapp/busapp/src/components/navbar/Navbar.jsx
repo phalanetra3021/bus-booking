@@ -80,7 +80,7 @@ const Navbar = () => {
                         Login
                     </Link>
                     <Link
-                        to="/login"
+                        to="/agentlogin"
                         className="text-base font-medium text-neutral-800 hover:text-violet-600 ease-in-out duration-300 ml-3"
                         onClick={handleClose}
                     >

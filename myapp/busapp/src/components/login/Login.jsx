@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import './Login.css'; // Ensure you have the appropriate CSS for styling
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-
+    const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
+        navigate ("/search");
         setError('');
 
         // Basic validation
@@ -18,8 +20,8 @@ const Login = () => {
 
         // Dummy authentication (replace with actual API call)
         if (email === 'test@example.com' && password === 'password') {
-            // Redirect or perform other actions on successful login
             console.log('Login successful');
+            // Redirect or perform other actions on successful login
             // For example, navigate to the dashboard
             // window.location.href = '/dashboard';
         } else {
