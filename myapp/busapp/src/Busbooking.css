@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.app .seat-price {
+  display : flex;
+  margin: 20px;
+}
+
+.app .price-button {
+  /* width: ''; */
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.app .price-button:hover {
+  background-color: #bbb;
+}
+
+.app .legend {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.app .legend p {
+  margin: 0 15px;
+}
+
+.app .legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.app .available {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.app .unavailable {
+  background-color: gray;
+}
+
+.app .female {
+  background-color: #ffcccc;
+}
+
+.app .male {
+  background-color: #cce5ff;
+}
+
+.deck {
+  margin: 20px;
+}
+
+.seating {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.seat.unavailable {
+  background-color: gray;
+}
+
+.seat.female {
+  background-color: #ffcccc;
+}
+
+.seat.male {
+  background-color: #cce5ff;
+}
+
+.seat:hover {
+  background-color: #ddd;
+}
+
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.selected {
+  border: 2px solid blue;
+}
+
+.billing-page {
+  text-align: center;
+  margin: 20px;
+}
+
+.billing-page .list-group {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.billing-page .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.billing-page h3 {
+  margin: 20px 0;
+}

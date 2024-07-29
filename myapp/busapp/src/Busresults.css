@@ -1,0 +1,83 @@
+.bus-results-container {
+    padding: 20px;
+    width:100vh;
+   margin-left: 25%;
+  }
+  
+  .results-header {
+    margin-bottom: 20px;
+  }
+  
+  .bus-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 1000px;
+  }
+  
+  .bus-card .card-body {
+    padding: 15px;
+    
+  }
+  
+  .bus-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bus-card .card-text {
+    margin: 5px 0;
+  }
+  
+  .bus-card .btn-primary {
+    background-color: #f96d01;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .bus-card .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .bus-card .rating span {
+    margin-left: 5px;
+  }
+  
+  .bus-card .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  .bus-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f96d01;
+  }
+  
+  .bus-card .seats-available {
+    font-size: 12px;
+    color: #28a745;
+  }
+  
+  .bus-card .departure-arrival {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bus-card .icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .bus-card .icons img {
+    margin-right: 10px;
+  }
+  
