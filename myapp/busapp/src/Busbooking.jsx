@@ -22,7 +22,7 @@ const Deck = ({ title, seats, selectedSeats, handleSeatClick }) => {
   return (
     <div className="deck">
       <h2>{title}</h2>
-      <div className="seating">
+      <div className="seating">                                                                                                                                               
         {seats.map((status, index) => (
           <Seat 
             key={index} 
